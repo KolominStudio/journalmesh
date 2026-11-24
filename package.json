@@ -1,1 +1,16 @@
-
+{
+  "name": "mesh-journal-full",
+  "version": "1.1.0",
+  "description": "Журнал МЭШ с редактированием ДЗ и контрольными",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  }
+}
